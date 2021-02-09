@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [SeleniumPractice]">
+  <test name="TestNGDemo(failed)">
+    <classes>
+      <class name="com.selenium.Test">
+        <methods>
+          <include name="close"/>
+          <include name="homePageTest"/>
+          <include name="setDriverConfig"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- com.selenium.Test -->
+    </classes>
+  </test> <!-- TestNGDemo(failed) -->
+</suite> <!-- Failed suite [SeleniumPractice] -->

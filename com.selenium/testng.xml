@@ -1,0 +1,26 @@
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="SeleniumPractice" parallel="false">
+
+<!-- 	<groups>
+		<run>
+			<include name="TestA" />
+			<include name="TestB" />
+			<include name="TestC" />
+			<include name="TestD" />
+		</run>
+	</groups> -->
+
+
+	<test name="TestNGDemo">
+		<!-- <classes>
+			<class name="TestNGDemo.TestA" />
+		</classes> -->
+		
+		<classes>
+			<class name="com.selenium.Test" />
+		</classes>
+	</test>
+
+</suite>
